@@ -1,0 +1,4 @@
+1.python版本3.7
+2.安装好python后，安装openpyxl 
+  以管理员权限运行cmd
+  输入 pip install openpyxl
