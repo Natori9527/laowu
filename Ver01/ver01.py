@@ -1,7 +1,7 @@
 from openpyxl import Workbook, load_workbook
 
 # Excel文件路径指定
-wkBook = load_workbook("C:\\Users\\032480_018002\\Desktop\\oldwu\\text.xlsx")
+wkBook = load_workbook("C:\\Users\\Desktop\\oldwu\\text.xlsx")
 wkSheet = wkBook["Sheet1"]
 
 # 存放要读取的数据
@@ -19,7 +19,7 @@ while wkSheet.cell(row=rowIdx, column=idColIdx).value:
   rowIdx = rowIdx + 1
 
 # 读取的txt文件指定
-f = open("C:\\Users\\032480_018002\\Desktop\\oldwu\\test\\mkdtd00(上海0701X市).txt", "r")
+f = open("C:\\Users\\Desktop\\oldwu\\test\\mkdtd00(上海0701X市).txt", "r")
 
 for line in f:
   datas = line.split("|")
