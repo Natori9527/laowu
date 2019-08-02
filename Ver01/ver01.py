@@ -27,7 +27,7 @@ for line in f:
       item ={"code":datas[1],"value1":datas[2],"value2":datas[3]}
       dic[datas[1]]=item
 
-print(dic)
+#print(dic)
 
 # 股票代码第一行
 rowIdx = 4
@@ -48,3 +48,5 @@ while wkSheet.cell(row=rowIdx, column=idColIdx).value:
 
 # 保存一下
 wkBook.save("output.xlsx")
+
+print("End")
